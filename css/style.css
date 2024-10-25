@@ -646,6 +646,7 @@ a{
 /*Section 5*/
 .section5{
     width: 100%;
+    overflow: hidden;
 }
 
 .section5__inner{
@@ -744,4 +745,38 @@ a{
 
 .swiper5{
     display: none;
+}
+
+@media (max-width: 1222px) {
+    .section5{
+        padding: 0 20px;
+    }
+    .section5__img{
+        display: none; 
+    }
+}
+
+@media (max-width: 1000px) {
+    
+}
+
+@media (max-width: 616px) {
+
+    .section5__content{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .section5__head{
+        font-size: 36px;
+        margin-bottom: 12px;
+    }
+
+    .section5__dephead{
+        position: relative;
+        font-size: 18px;
+        top: 0;
+        left: 0;
+        max-width: 100%;
+    }
 }
