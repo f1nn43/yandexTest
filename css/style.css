@@ -414,12 +414,21 @@ a{
     }
 }
 
-@media (max-width: 335px) {
+@media (max-width: 360px) {
     .section3__inner img{
         width: 100%;
         height: auto;
     }
 }
+
+@media (max-width: 335px) {
+    .section3__inner img{
+        width: 280px;
+        height: auto;
+    }
+}
+
+
 
 /*Section 4*/
 
@@ -963,6 +972,19 @@ a{
     }
 }
 
+@media (max-width: 350px) {
+    .section5__head{
+        font-size: 30px;
+    }
+}
+
+@media (max-width:366px) {
+    .section5__planePhone{
+        left: -20px;
+        width: 280px;
+    }
+}
+
 /*Section 6*/
 .section6{
     width: 100%;
@@ -1067,7 +1089,9 @@ a{
 
 .section6__settings .swiper-number span:first-child{
     color: #313131;
-    margin-right: 5px;
+    width: 10px;
+    display: inline-block;
+    margin-right: 3px;
 }
 
 .section6__settings .swiper-number span:last-child{
@@ -1126,6 +1150,7 @@ a{
     .section6__settings .swiper-button-prev{
         width: 36px;
         height: 36px;
+        top: 9px;
         margin-left: 1px;
     }
     
@@ -1135,12 +1160,20 @@ a{
     }
 
     .section6__settings .swiper-number span:first-child{
-        margin-right: 2px;
+        margin-right: 0px;
+        margin-left: 1px;
     }
 
     .section6__settings .swiper-button-next{
+        top: 9px;
         width: 36px;
         height: 36px;
+    }
+}
+
+@media (max-width: 325px) {
+    .section6__settings{
+        bottom: 20px;
     }
 }
 
