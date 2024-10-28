@@ -107,6 +107,9 @@ const corousel5Func = () => {
 const swiper6 = new Swiper('.swiper6', {
   // Optional parameters
   direction: 'horizontal',
+  autoplay: {
+    delay: 4000,
+  },
   centeredSlides: true,
   breakpoints: {
     320:{
